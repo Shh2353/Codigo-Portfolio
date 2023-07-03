@@ -195,3 +195,30 @@ footer{
 .name{
     margin-top: 190px;
 }
+.hello{
+    display: none;
+}
+@media (max-width: 480px) {
+    .hero nav ul {
+        display: none;
+    }
+    .hero ul{
+        display: flex;
+        gap: 10px;
+        padding: 0px 35px 35px 35px ;
+        flex-flow: wrap;
+    }
+    .hero ul a{
+        font-size: 0.9rem;
+        color: rgb(253, 253, 253);
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+    *{
+        list-style: none;
+        text-decoration: none;
+    }
+    .content{
+        margin-top: 30px;
+    }
+  }
